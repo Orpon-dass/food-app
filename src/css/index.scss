@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+@import 'variable';
+//header css code
+.logo {
+  height: 150px;
+}
+.test {
+  height: 200px;
+  background-color: $background-color;
+}
+.social-icon i {
+  font-size: 25px;
+  color: $font-color;
+}
+.social-icon i:hover {
+  font-size: 25px;
+  color: $hover-color;
+}
+.nav-items div {
+  font-size: 25px;
+  font-family: $head-font;
+  color: $font-color;
+}
+
+.menu-button {
+  font-size: 30px;
+  color: $font-color;
+}
+// subscription css
+.subcription-background {
+  background-color: $background-color;
+}
+.suscription {
+  p {
+    color: $font-color-white;
+  }
+  .sub-sign {
+    color: $font-color-white;
+    font-family: $head-font;
+    font-size: 18px;
+    text-decoration: none;
+  }
+}
+//heading
+.section-heading {
+  .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: $head-font;
+    letter-spacing: 0.3em;
+  }
+
+  /* To show the lines on right 
+  and left sides of the text */
+  .divider::after,
+  .divider::before {
+    content: '';
+    border-bottom: 1px solid black;
+    flex: 1;
+  }
+
+  /* Space on left and right sides of text */
+  .divider:not(:empty)::before {
+    margin-right: 0.25em;
+  }
+
+  .divider:not(:empty)::after {
+    margin-left: 0.25em;
+  }
+  // .line::before {
+  //   content: '';
+  //   position: absolute;
+  //   top: 50%;
+  //   left: 0;
+  //   width: 45%;
+  //   height: 3px;
+  //   background-color: red;
+  // }
+}
+//hero section
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: #f31a0a;
+  color: white;
+  border-radius: 100%;
+  font-size: 1.3rem;
+  font-family: $para-font;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+}
+//card css code
+.recipe-name {
+  color: $font-color;
+  font-family: $para-font;
+}
+.show-me-link {
+  font-family: $head-font;
+  color: #d5726c;
+}
+//recipe of the week
+.weekly-recipe-image {
+  background: url('../img/recipe-of-the-week.jpg');
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.week-pick {
+  font-family: $para-font;
+  color: $font-color;
+}
+.week-Cinnamon {
+  font-family: $head-font;
+  color: $font-color;
+}
+.week-para {
+  font-family: $para-font;
+  color: $font-color;
+}
+.button-week-custom {
+  border: 2px solid $font-color;
+  color: $font-color;
+  font-family: $head-font;
+}
+.button-week-custom:hover {
+  border: none;
+  color: $font-color;
+  background-color: #ffded6;
+}

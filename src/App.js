@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './Component/Header';
+import Herosection from './Component/Herosection';
+import SectionHeader from './Component/SectionHeader';
+import Subscription from './Component/Subscription';
+import WeeklyRecipe from './Component/WeeklyRecipe';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Subscription />
+      <SectionHeader headingText="HOLIDAY FAVORITES" />
+      <Herosection />
+      <WeeklyRecipe />
+    </>
   );
 }
 

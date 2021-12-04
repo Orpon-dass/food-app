@@ -1,0 +1,145 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.logo {
+  height: 150px;
+}
+
+.test {
+  height: 200px;
+  background-color: #000000;
+}
+
+.social-icon i {
+  font-size: 25px;
+  color: #121212;
+}
+
+.social-icon i:hover {
+  font-size: 25px;
+  color: #767676;
+}
+
+.nav-items div {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: #121212;
+}
+
+.menu-button {
+  font-size: 30px;
+  color: #121212;
+}
+
+.subcription-background {
+  background-color: #000000;
+}
+
+.suscription p {
+  color: #fff;
+}
+
+.suscription .sub-sign {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.section-heading {
+  /* To show the lines on right 
+  and left sides of the text */
+  /* Space on left and right sides of text */
+}
+
+.section-heading .divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.3em;
+}
+
+.section-heading .divider::after,
+.section-heading .divider::before {
+  content: '';
+  border-bottom: 1px solid black;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.section-heading .divider:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.section-heading .divider:not(:empty)::after {
+  margin-left: 0.25em;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: #f31a0a;
+  color: white;
+  border-radius: 100%;
+  font-size: 1.3rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+}
+
+.recipe-name {
+  color: #121212;
+  font-family: "Open Sans", sans-serif;
+}
+
+.show-me-link {
+  font-family: "Roboto", sans-serif;
+  color: #d5726c;
+}
+
+.weekly-recipe-image {
+  background: url("../img/recipe-of-the-week.jpg");
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.week-pick {
+  font-family: "Open Sans", sans-serif;
+  color: #121212;
+}
+
+.week-Cinnamon {
+  font-family: "Roboto", sans-serif;
+  color: #121212;
+}
+
+.week-para {
+  font-family: "Open Sans", sans-serif;
+  color: #121212;
+}
+
+.button-week-custom {
+  border: 2px solid #121212;
+  color: #121212;
+  font-family: "Roboto", sans-serif;
+}
+
+.button-week-custom:hover {
+  border: none;
+  color: #121212;
+  background-color: #ffded6;
+}
+/*# sourceMappingURL=index.css.map */
