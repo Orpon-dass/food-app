@@ -4,7 +4,7 @@ import latestRecipe from '../img/latest.png';
 export default function Subscription() {
   return (
     <div className="container-fluid">
-      <div className="row subcription-background">
+      <div className="row subcription-background mb-3">
         <div className="col-12 col-lg-7 suscription d-flex justify-content-center justify-content-lg-end align-items-center">
           <p className="pe-2 pt-3">GET THE</p>
           <img src={latestRecipe} className="d-none d-lg-block img-fluid" alt="latestRecipe" />

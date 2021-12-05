@@ -9,7 +9,7 @@ import Slider from './slider';
 export default function Herosection() {
   return (
     <div className="container">
-      <div className="row">
+      <div className="row mt-3">
         <div className="col-12 col-lg-4 d-none d-lg-block">
           <Card heroImage={heroImageOne} recipeName="Easy Beet Fritters with Dill Yogurt Sauce" />
         </div>

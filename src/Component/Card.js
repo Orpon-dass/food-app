@@ -10,7 +10,7 @@ export default function Card({ heroImage, recipeName }) {
           <img src={heroImage} alt="" className="img-fluid" />
         </Link>
       </div>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center mt-2">
         <TagCircle bgcolor="#003811" circleText="GF" />
         <TagCircle bgcolor="#b45026" circleText="VG" />
         <TagCircle bgcolor="#ffb5a3" circleText="V" />

@@ -84,15 +84,14 @@
 }
 //hero section
 .circle {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   background-color: #f31a0a;
   color: white;
   border-radius: 100%;
-  font-size: 1.3rem;
+  font-size: 0.7rem;
   font-family: $para-font;
   font-weight: 600;
-  letter-spacing: 0.3rem;
 }
 //card css code
 .recipe-name {
@@ -133,4 +132,43 @@
   border: none;
   color: $font-color;
   background-color: #ffded6;
+}
+//recent reader favourite
+.line {
+  height: 1px;
+  background-color: $font-color;
+}
+.popular-text {
+  font-family: $head-font;
+  color: $font-color;
+}
+.popular-number {
+  font-family: $head-font;
+  color: $font-color;
+}
+.popular-recipe-background {
+  background-color: #fff;
+}
+.popular-recipe-background:hover {
+  background-color: #003811;
+  color: #fff;
+  .popular-text {
+    color: #fff;
+  }
+  .popular-number {
+    color: #fff;
+  }
+}
+.recipe-key-value {
+  font-family: $para-font;
+}
+//quick meal css code
+.quick-meal-button {
+  border: 2px solid black;
+  color: $font-color;
+  font-family: $head-font;
+}
+.quick-meal-button:hover {
+  border: 2px solid black;
+  background-color: black;
 }
