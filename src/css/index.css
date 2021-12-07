@@ -142,6 +142,12 @@
   background-color: #ffded6;
 }
 
+.button-week-custom:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .line {
   height: 1px;
   background-color: #121212;
@@ -159,6 +165,8 @@
 
 .popular-recipe-background {
   background-color: #fff;
+  -webkit-transition: background-color ease 1s;
+  transition: background-color ease 1s;
 }
 
 .popular-recipe-background:hover {
@@ -187,5 +195,156 @@
 .quick-meal-button:hover {
   border: 2px solid black;
   background-color: black;
+}
+
+.explore-one-button {
+  border: 1px solid #d56638;
+  font-family: "Open Sans", sans-serif;
+  color: #d56638;
+}
+
+.explore-one-button:hover {
+  background-color: #d56638;
+  border: 1px solid #d56638;
+}
+
+.explore-one-button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #fff;
+  background-color: #d56638;
+}
+
+.explore-two-button {
+  border: 1px solid #003811;
+  font-family: "Open Sans", sans-serif;
+  color: #003811;
+}
+
+.explore-two-button:hover {
+  background-color: #003811;
+  border: 1px solid #003811;
+}
+
+.explore-two-button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #fff;
+  background-color: #003811;
+}
+
+.explore-three-button {
+  border: 1px solid #f74639;
+  font-family: "Open Sans", sans-serif;
+  color: #f74639;
+}
+
+.explore-three-button:hover {
+  background-color: #f74639;
+  border: 1px solid #f74639;
+}
+
+.explore-three-button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #fff;
+  background-color: #f74639;
+}
+
+.explore-four-button {
+  border: 1px solid #c64815;
+  font-family: "Open Sans", sans-serif;
+  color: #c64815;
+}
+
+.explore-four-button:hover {
+  background-color: #c64815;
+  border: 1px solid #c64815;
+}
+
+.explore-four-button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #fff;
+  background-color: #c64815;
+}
+
+.shop-bg {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/shop-bg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/shop-bg.jpg");
+  background-color: blacks;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shop h2 {
+  color: #121212;
+  font-family: "Roboto", sans-serif;
+}
+
+.shop p {
+  color: #121212;
+  font-family: "Open Sans", sans-serif;
+}
+
+.BooK-wraper {
+  background-color: #fbf8f3;
+}
+
+.book-wraper-right-bg {
+  background-color: #fdddd4;
+}
+
+.book-button {
+  border: 1px solid black;
+  color: black;
+}
+
+.book-button:hover {
+  border: 1px solid #fdddd4;
+  background-color: #ffb5a3;
+}
+
+.book-button:focus {
+  border: none;
+  background-color: #ffb5a3;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+.book-wraper-text {
+  color: #121212;
+}
+
+.book-wraper-text h3 {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.3rem;
+}
+
+.book-wraper-text h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+.book-wraper-text p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.social-media-flower {
+  color: #121212;
+}
+
+.social-media-flower h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+.social-media-flower h2 {
+  font-family: "Roboto", sans-serif;
 }
 /*# sourceMappingURL=index.css.map */

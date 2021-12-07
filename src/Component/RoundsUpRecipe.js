@@ -8,7 +8,7 @@ import SecondCard from './SecondCard';
 export default function RoundsUpRecipe() {
   return (
     <div className="container">
-      <div className="row">
+      <div className="row mb-4">
         <div className="col-12 col-lg-3 ps-2 pe-2 pt-3">
           <SecondCard SecondCardImage={quickMealOne} recipeName="THAI COCONUT CURRY RAMEN" />
         </div>
