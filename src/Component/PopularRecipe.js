@@ -11,7 +11,7 @@ export default function PopularRecipe({ popularImage, popularText, number }) {
         <h1 className="popular-number ps-2 pe-3 mt-1 mt-lg-0">{number}</h1>
         <h4 className="popular-text text-center mt-1 mt-lg-0">{popularText}</h4>
       </div>
-      <div className="col-12 col-lg-4 d-flex justify-content-center align-items-center mt-2 mt-lg-0">
+      <div className="col-12 col-lg-4 d-flex justify-content-center align-items-center mt-2 mb-2 mt-lg-0">
         <TagCircle bgcolor="#003811" circleText="GF" />
         <TagCircle bgcolor="#b45026" circleText="VG" />
         <TagCircle bgcolor="#ffb5a3" circleText="V" />

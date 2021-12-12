@@ -8,6 +8,7 @@ import quickMealThree from '../img/quick-meal-three.jpg';
 import quickMealTwo from '../img/quick-meal-two.jpg';
 import CustomButton from './CustomButton';
 import SecondCard from './SecondCard';
+import SectionHeader from './SectionHeader';
 
 export default function ExploreRecipe() {
   const [type, setType] = useState(true);
@@ -15,8 +16,9 @@ export default function ExploreRecipe() {
     setType(!type);
   };
   return (
-    <div className="container">
-      <div className="row mt-3 mb-3">
+    <div className="container" id="exrecipe">
+      <SectionHeader headingText="Explore Recipe" />
+      <div className="row mt-2 mb-3">
         <div className="col-6 col-lg-3">
           <CustomButton
             typeOfRecipe={typeOfRecipe}

@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="row mt-5 mb-2">
         <div className="col">
           <div className="d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-around nav-items pt-2 pb-3 pe-1 ps-1">
-            <Link to="/home" style={{ textDecoration: 'none' }}>
+            <Link to="/" style={{ textDecoration: 'none' }}>
               <div>Home</div>
             </Link>
             <Link to="/recipe" style={{ textDecoration: 'none' }}>

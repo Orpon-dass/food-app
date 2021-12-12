@@ -93,6 +93,9 @@
   font-family: $para-font;
   font-weight: 600;
 }
+.circle:hover {
+  opacity: 0.5;
+}
 //card css code
 .recipe-name {
   color: $font-color;
@@ -136,6 +139,14 @@
 .button-week-custom:focus {
   outline: none;
   box-shadow: none;
+}
+//card
+.card:hover {
+  opacity: 0.7;
+}
+//second card design
+.second-card:hover {
+  opacity: 0.7;
 }
 //recent reader favourite
 .line {
@@ -300,5 +311,67 @@
   }
   h2 {
     font-family: $head-font;
+  }
+}
+//single recipe code
+.single-recipe-bg {
+  background-color: #fff;
+}
+.single-recipe-wraper {
+  h2 {
+    font-family: $head-font;
+    color: $font-color;
+  }
+  p {
+    font-family: $para-font;
+    color: $font-color;
+    letter-spacing: 0.02rem;
+  }
+  .holidays-recipe-link li {
+    font-family: $para-font;
+    color: #f74639;
+  }
+  .ingridient li {
+    color: $para-font;
+    font-size: 1.2rem;
+    letter-spacing: 0.02rem;
+  }
+  .instruction li {
+    color: $para-font;
+    font-size: 1.2rem;
+    letter-spacing: 0.02rem;
+  }
+}
+//about code
+.about-line-one {
+  height: 3px;
+  width: 15%;
+  background-color: #f31a0a;
+}
+.about-line-two {
+  height: 3px;
+  width: 15%;
+  background-color: #003811;
+}
+.about-line-three {
+  height: 3px;
+  width: 15%;
+  background-color: #d56638;
+}
+.about-wraper-2 {
+  font-family: $head-font;
+  color: $font-color;
+  p {
+    font-family: $para-font;
+  }
+}
+.about-wraper {
+  h1 {
+    font-family: $head-font;
+    color: #f31a0a;
+  }
+  p {
+    font-family: $para-font;
+    color: $font-color;
   }
 }

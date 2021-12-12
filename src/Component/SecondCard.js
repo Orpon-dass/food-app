@@ -6,7 +6,7 @@ export default function SecondCard({ SecondCardImage, recipeName }) {
     <div className="hero-card-wraper">
       <div className="text-center">
         <Link to="/recipe" style={{ textDecoration: 'none' }}>
-          <img src={SecondCardImage} alt="" className="img-fluid" />
+          <img src={SecondCardImage} alt="" className="img-fluid second-card" />
         </Link>
       </div>
       <div className="recipe-name fs-5 text-center mb-3 mt-3 h-100">{recipeName}</div>

@@ -96,6 +96,10 @@
   font-weight: 600;
 }
 
+.circle:hover {
+  opacity: 0.5;
+}
+
 .recipe-name {
   color: #121212;
   font-family: "Open Sans", sans-serif;
@@ -146,6 +150,14 @@
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.card:hover {
+  opacity: 0.7;
+}
+
+.second-card:hover {
+  opacity: 0.7;
 }
 
 .line {
@@ -346,5 +358,74 @@
 
 .social-media-flower h2 {
   font-family: "Roboto", sans-serif;
+}
+
+.single-recipe-bg {
+  background-color: #fff;
+}
+
+.single-recipe-wraper h2 {
+  font-family: "Roboto", sans-serif;
+  color: #121212;
+}
+
+.single-recipe-wraper p {
+  font-family: "Open Sans", sans-serif;
+  color: #121212;
+  letter-spacing: 0.02rem;
+}
+
+.single-recipe-wraper .holidays-recipe-link li {
+  font-family: "Open Sans", sans-serif;
+  color: #f74639;
+}
+
+.single-recipe-wraper .ingridient li {
+  color: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.02rem;
+}
+
+.single-recipe-wraper .instruction li {
+  color: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.02rem;
+}
+
+.about-line-one {
+  height: 3px;
+  width: 15%;
+  background-color: #f31a0a;
+}
+
+.about-line-two {
+  height: 3px;
+  width: 15%;
+  background-color: #003811;
+}
+
+.about-line-three {
+  height: 3px;
+  width: 15%;
+  background-color: #d56638;
+}
+
+.about-wraper-2 {
+  font-family: "Roboto", sans-serif;
+  color: #121212;
+}
+
+.about-wraper-2 p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.about-wraper h1 {
+  font-family: "Roboto", sans-serif;
+  color: #f31a0a;
+}
+
+.about-wraper p {
+  font-family: "Open Sans", sans-serif;
+  color: #121212;
 }
 /*# sourceMappingURL=index.css.map */

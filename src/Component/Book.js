@@ -7,9 +7,9 @@ import socialMediaTwo from '../img/social-media-two.jpg';
 export default function Book() {
   return (
     <div className="container">
-      <div className="row BooK-wraper">
+      <div className="row BooK-wraper mt-5">
         <div className="col-12 col-lg-6">
-          <div className="row book-wraper-right-bg mt-5 me-1 ms-1">
+          <div className="row book-wraper-right-bg mt-5 me-1 ms-1 mb-5">
             <div className="col-12 col-lg-6 text-center pt-3">
               <img src={fanFavourite} className="img-fluid" alt="cookBook" />
             </div>
@@ -57,7 +57,7 @@ export default function Book() {
               <div style={{ height: '3px', backgroundColor: '#d56638' }} />
             </div>
           </div>
-          <div className="row mt-3">
+          <div className="row mt-3 mb-5">
             <div className="col text-center">
               <img src={socialMediaOne} className="img-fluid" alt="one" />
             </div>

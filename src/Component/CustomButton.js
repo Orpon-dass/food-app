@@ -5,7 +5,7 @@ export default function CustomButton({ buttonText, buttonclass, typeOfRecipe }) 
     <button
       type="button"
       onClick={typeOfRecipe}
-      className={`btn btn-outline-primary fs-6 w-100 m-3 ${buttonclass} `}
+      className={`btn btn-outline-primary fs-6 w-100 mt-3 mb-3 ${buttonclass} `}
     >
       {buttonText}
     </button>

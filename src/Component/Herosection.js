@@ -4,11 +4,13 @@ import heroImageOne from '../img/hero-recipe-one.jpg';
 import heroImageThree from '../img/hero-recipe-three.jpg';
 import heroImageTwo from '../img/hero-recipe-two.jpg';
 import Card from './Card';
+import SectionHeader from './SectionHeader';
 import Slider from './slider';
 
 export default function Herosection() {
   return (
     <div className="container">
+      <SectionHeader headingText="HOLIDAY FAVORITES" />
       <div className="row mt-3">
         <div className="col-12 col-lg-4 d-none d-lg-block">
           <Card heroImage={heroImageOne} recipeName="Easy Beet Fritters with Dill Yogurt Sauce" />

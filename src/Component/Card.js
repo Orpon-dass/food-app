@@ -7,7 +7,7 @@ export default function Card({ heroImage, recipeName }) {
     <div className="hero-card-wraper">
       <div className="text-center">
         <Link to="/recipe" style={{ textDecoration: 'none' }}>
-          <img src={heroImage} alt="" className="img-fluid" />
+          <img src={heroImage} alt="" className="img-fluid card" />
         </Link>
       </div>
       <div className="d-flex justify-content-center mt-2">
